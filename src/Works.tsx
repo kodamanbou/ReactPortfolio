@@ -7,10 +7,9 @@ import Link from '@mui/material/Link';
 
 import './Works.css';
 import imgNetwork from './images/network.png';
-
-const SndSource = require('./media/source.wav');
-const SndTarget = require('./media/target.wav');
-const SndGenerated = require('./media/generated.wav');
+import sndSource from './media/source.wav';
+import sndTarget from './media/target.wav';
+import sndGenerated from './media/generated.wav';
 
 const WorksDiv = styled('div')({
   backgroundColor: '#fcfcfc',
@@ -109,18 +108,18 @@ function Works() {
             <div className='Border-grey' />
           </Grid>
           <Grid item xs={4}>
-            <audio controls src={SndSource}>
-              <a href={SndSource}>Download audio.</a>
+            <audio controls src={sndSource}>
+              <a href={sndSource}>Download audio.</a>
             </audio>
           </Grid>
           <Grid item xs={4}>
-            <audio controls src={SndTarget}>
-              <a href={SndTarget}>Download audio.</a>
+            <audio controls src={sndTarget}>
+              <a href={sndTarget}>Download audio.</a>
             </audio>
           </Grid>
           <Grid item xs={4}>
-            <audio controls src={SndGenerated}>
-              <a href={SndGenerated}>Download audio.</a>
+            <audio controls src={sndGenerated}>
+              <a href={sndGenerated}>Download audio.</a>
             </audio>
           </Grid>
         </Grid>
