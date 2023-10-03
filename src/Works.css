@@ -1,0 +1,32 @@
+.Works {
+  text-align: center;
+}
+
+.Border-grey {
+  border-top: 1px solid grey;
+}
+
+.Section-border-top {
+  border-top: 1px solid black;
+  width: 80%;
+}
+
+.Section-border-bottom {
+  border-bottom: 1px solid black;
+  width: 80%;
+}
+
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url("./fonts/Montserrat-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("./fonts/Montserrat-Bold.ttf") format("truetype");
+}

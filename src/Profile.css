@@ -1,0 +1,13 @@
+.Profile {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url("./fonts/Montserrat-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
+}
