@@ -9,6 +9,7 @@ import Link from '@mui/material/Link';
 import Divider from '@mui/material/Divider';
 
 import './Works.css';
+import imgNetwork from './images/network.png';
 
 const WorksDiv = styled('div')({
   backgroundColor: '#fcfcfc',
@@ -53,7 +54,7 @@ function Works() {
           mb={3}>
           Implementation of CycleGAN-VC2 with Tensorflow 2. This is a model that applies CycleGAN, commonly used in the field of image translation, to voice conversion. The neural network utilized 1D gated convolution neural network (Gated CNN) for generator, and 2D Gated CNN for discriminator. The model takes Mel-cepstral coefficients as input for voice conversions.
         </Typography>
-        <img src='/images/network.png' width='100%' />
+        <img src={`${imgNetwork}`} width='100%' />
       </Box>
 
       <div className='Section-border-top' />
@@ -107,18 +108,18 @@ function Works() {
             <div className='Border-grey' />
           </Grid>
           <Grid item xs={4}>
-            <audio controls src='/media/source.wav'>
-              <a href='/media/source.wav'>Download audio.</a>
+            <audio controls src='https://github.com/kodamanbou/ReactPortfolio/raw/gh-pages/media/source.wav'>
+              <a href='https://github.com/kodamanbou/ReactPortfolio/raw/gh-pages/media/source.wav'>Download audio.</a>
             </audio>
           </Grid>
           <Grid item xs={4}>
-            <audio controls src='/media/target.wav'>
-              <a href='/media/targer.wav'>Download audio.</a>
+            <audio controls src='https://github.com/kodamanbou/ReactPortfolio/raw/gh-pages/media/target.wav'>
+              <a href='https://github.com/kodamanbou/ReactPortfolio/raw/gh-pages/media/target.wav'>Download audio.</a>
             </audio>
           </Grid>
           <Grid item xs={4}>
-            <audio controls src='/media/generated.wav'>
-              <a href='/media/generated.wav'>Download audio.</a>
+            <audio controls src='https://github.com/kodamanbou/ReactPortfolio/raw/gh-pages/media/generated.wav'>
+              <a href='https://github.com/kodamanbou/ReactPortfolio/raw/gh-pages/media/generated.wav'>Download audio.</a>
             </audio>
           </Grid>
         </Grid>

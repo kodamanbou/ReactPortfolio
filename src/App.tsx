@@ -8,6 +8,13 @@ import ButtonBase from '@mui/material/ButtonBase'
 import Link from '@mui/material/Link';
 
 import './App.css';
+import imgProf from './images/profile.jpg'
+import imgWorks from './images/work.png'
+import imgContact from './images/contact.png'
+import imgWelcome from './images/waveform_welcome.png'
+import imgWaveProf from './images/waveform_profile.png'
+import imgWaveWorks from './images/waveform_works.png'
+import imgWaveContact from './images/waveform_contacts.png'
 import Profile from './Profile';
 import Works from './Works';
 import Contact from './Contact';
@@ -15,24 +22,24 @@ import Contact from './Contact';
 const images = [
   {
     id: 'profile',
-    url: '/images/profile.jpg',
+    url: imgProf,
     title: 'About',
     width: '30%',
-    bgPath: '/images/waveform_profile.png'
+    bgPath: imgWaveProf
   },
   {
     id: 'works',
-    url: '/images/work.png',
+    url: imgWorks,
     title: 'Works',
     width: '30%',
-    bgPath: '/images/waveform_works.png'
+    bgPath: imgWaveWorks
   },
   {
     id: 'contact',
-    url: '/images/contact.png',
+    url: imgContact,
     title: 'Contact',
     width: '30%',
-    bgPath: '/images/waveform_contacts.png'
+    bgPath: imgWaveContact
   },
 ];
 
@@ -102,7 +109,7 @@ const ImageMarked = styled('span')(({ theme }) => ({
 
 const AppHeader = styled('header')({
   backgroundColor: '#282c34',
-  backgroundImage: 'url(/images/waveform_welcome.png)',
+  backgroundImage: `url(${imgWelcome})`,
   backgroundSize: 'cover',
   minHeight: '100vh',
   display: 'flex',
@@ -114,7 +121,7 @@ const AppHeader = styled('header')({
 });
 
 function App() {
-  const [bgPath, setBGPath] = React.useState('/images/waveform_welcome.png');
+  const [bgPath, setBGPath] = React.useState(imgWelcome);
   const handleClick = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -152,7 +159,7 @@ function App() {
                 setBGPath(image.bgPath);
               }}
               onMouseLeave={() => {
-                setBGPath('/images/waveform_welcome.png');
+                setBGPath(imgWelcome);
               }}
               onClick={() => {
                 handleClick(image.id);

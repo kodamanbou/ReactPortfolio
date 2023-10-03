@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 
 import './Profile.css';
+import imgAvatar from './images/profile.jpg';
 
 const ProfDiv = styled('div')({
   backgroundColor: '#fcfcfc',
@@ -25,7 +26,7 @@ function Profile() {
     <ProfDiv id='profile' className='Profile'>
       <Avatar
         alt='Hideo Kodama'
-        src='/images/profile.jpg'
+        src={`${imgAvatar}`}
         sx={{ width: 200, height: 200, marginTop: 8 }}
       />
 
