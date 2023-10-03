@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.20b30b65.css",
+    "main.js": "/ReactPortfolio/static/js/main.f6aaf101.js",
+    "static/js/787.2c438de5.chunk.js": "/ReactPortfolio/static/js/787.2c438de5.chunk.js",
+    "static/media/Montserrat-Bold.ttf": "/ReactPortfolio/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
+    "static/media/Montserrat-Regular.ttf": "/ReactPortfolio/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/Montserrat-Thin.ttf": "/ReactPortfolio/static/media/Montserrat-Thin.9a7aece9cfe235bc0920.ttf",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.20b30b65.css.map": "/ReactPortfolio/static/css/main.20b30b65.css.map",
+    "main.f6aaf101.js.map": "/ReactPortfolio/static/js/main.f6aaf101.js.map",
+    "787.2c438de5.chunk.js.map": "/ReactPortfolio/static/js/787.2c438de5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20b30b65.css",
+    "static/js/main.f6aaf101.js"
+  ]
+}
