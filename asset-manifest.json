@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.20b30b65.css",
-    "main.js": "/ReactPortfolio/static/js/main.a7cbac29.js",
+    "main.js": "/ReactPortfolio/static/js/main.768ee18f.js",
     "static/js/787.2c438de5.chunk.js": "/ReactPortfolio/static/js/787.2c438de5.chunk.js",
     "static/media/contact.png": "/ReactPortfolio/static/media/contact.b0bcdc985f9b7d089666.png",
     "static/media/work.png": "/ReactPortfolio/static/media/work.390fba3015e952fc2444.png",
+    "static/media/target.wav": "/ReactPortfolio/static/media/target.f98bc0d14c7a9e9ffe84.wav",
+    "static/media/source.wav": "/ReactPortfolio/static/media/source.03c89e324ed082a0415b.wav",
     "static/media/Montserrat-Bold.ttf": "/ReactPortfolio/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
     "static/media/Montserrat-Regular.ttf": "/ReactPortfolio/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
     "static/media/Montserrat-Thin.ttf": "/ReactPortfolio/static/media/Montserrat-Thin.9a7aece9cfe235bc0920.ttf",
     "static/media/network.png": "/ReactPortfolio/static/media/network.5c2c6d7812550a7415e9.png",
+    "static/media/generated.wav": "/ReactPortfolio/static/media/generated.4f33453a6308a69364d4.wav",
     "static/media/profile.jpg": "/ReactPortfolio/static/media/profile.9c0b69a3b00604bdc3ef.jpg",
     "static/media/waveform_welcome.png": "/ReactPortfolio/static/media/waveform_welcome.28b4d617635bfdd13765.png",
     "static/media/waveform_contacts.png": "/ReactPortfolio/static/media/waveform_contacts.41e7ea35bdbfd5b37d00.png",
@@ -16,11 +19,11 @@
     "static/media/waveform_profile.png": "/ReactPortfolio/static/media/waveform_profile.7c70267e1362d9057ff0.png",
     "index.html": "/ReactPortfolio/index.html",
     "main.20b30b65.css.map": "/ReactPortfolio/static/css/main.20b30b65.css.map",
-    "main.a7cbac29.js.map": "/ReactPortfolio/static/js/main.a7cbac29.js.map",
+    "main.768ee18f.js.map": "/ReactPortfolio/static/js/main.768ee18f.js.map",
     "787.2c438de5.chunk.js.map": "/ReactPortfolio/static/js/787.2c438de5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20b30b65.css",
-    "static/js/main.a7cbac29.js"
+    "static/js/main.768ee18f.js"
   ]
 }
