@@ -1,11 +1,8 @@
 import * as React from 'react';
-import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
 import ButtonBase from '@mui/material/ButtonBase'
-import Link from '@mui/material/Link';
 
 import './App.css';
 import imgProf from './images/profile.jpg'

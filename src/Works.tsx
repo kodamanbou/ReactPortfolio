@@ -2,14 +2,15 @@ import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import Avatar from '@mui/material/Avatar';
-import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
-import Divider from '@mui/material/Divider';
 
 import './Works.css';
 import imgNetwork from './images/network.png';
+
+const SndSource = require('./media/source.wav');
+const SndTarget = require('./media/target.wav');
+const SndGenerated = require('./media/generated.wav');
 
 const WorksDiv = styled('div')({
   backgroundColor: '#fcfcfc',
@@ -108,18 +109,18 @@ function Works() {
             <div className='Border-grey' />
           </Grid>
           <Grid item xs={4}>
-            <audio controls src='https://github.com/kodamanbou/ReactPortfolio/raw/gh-pages/media/source.wav'>
-              <a href='https://github.com/kodamanbou/ReactPortfolio/raw/gh-pages/media/source.wav'>Download audio.</a>
+            <audio controls src={SndSource}>
+              <a href={SndSource}>Download audio.</a>
             </audio>
           </Grid>
           <Grid item xs={4}>
-            <audio controls src='https://github.com/kodamanbou/ReactPortfolio/raw/gh-pages/media/target.wav'>
-              <a href='https://github.com/kodamanbou/ReactPortfolio/raw/gh-pages/media/target.wav'>Download audio.</a>
+            <audio controls src={SndTarget}>
+              <a href={SndTarget}>Download audio.</a>
             </audio>
           </Grid>
           <Grid item xs={4}>
-            <audio controls src='https://github.com/kodamanbou/ReactPortfolio/raw/gh-pages/media/generated.wav'>
-              <a href='https://github.com/kodamanbou/ReactPortfolio/raw/gh-pages/media/generated.wav'>Download audio.</a>
+            <audio controls src={SndGenerated}>
+              <a href={SndGenerated}>Download audio.</a>
             </audio>
           </Grid>
         </Grid>
